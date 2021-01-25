@@ -4,20 +4,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <h1>Ana</h1>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>
-          Bem vindos a AnaEletro
-        </h2>
+        <p>
+          Desenvolvimento <code>FullStack</code>.
+        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.recodepro.org.br"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Cadastre-se
+          Recode
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

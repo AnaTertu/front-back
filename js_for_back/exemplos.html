@@ -1,0 +1,18 @@
+
+ <p><a href="javascript:void(0)">Clique aqui para fazer nada</a></p>
+
+ <a href="javascript:void(document.form.submit())">
+ Clique aqui para enviar</a>
+
+<script>
+    function valide(obj, minimo, maximo){
+    if ((obj.valor < minimo) || (obj.valor > maximo))
+      alert("Valor inválido!");
+    }
+    console.log(valide)
+</script>
+<div>
+    <b>Informe um número entre 18 e 99:</b>
+    <input type="text" name="idade" size=3
+    onChange="valide(this, 18, 99);">
+</div>

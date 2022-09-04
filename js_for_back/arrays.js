@@ -34,3 +34,24 @@ function valide(obj, minimo, maximo){
     if ((obj.valor < minimo) || (obj.valor > maximo))
       alert("Valor inválido!");
 }
+
+
+// LOCALIZAR
+const alunos = [ 'Leo', 'Ju', 'Thami', 'Vini' ]
+const media = [10, 8, 7, 10]
+
+let mediaAlunos = [ alunos, media]
+
+//verificar se existe o aluno
+const exibeNotaAluno = (nomeAlunos) => {
+  if(mediaAlunos[0].includes(nomeAlunos)) { // includes return boolean -> true or false
+    let i = mediaAlunos[0].indexOf(nomeAlunos) // indexOf return number of position value
+          // position [0][3] -> referente a alunos posição do Vini / / position [1][3] -> referente ao segundo array e a 3 posição
+    return mediaAlunos[0][i] + ', sua média é '                    + mediaAlunos[1][i]
+  } else {
+    return "Aluno não cadastrado"
+  }
+}
+
+console.log(exibeNotaAluno("Vini"))
+console.log(exibeNotaAluno("Alan"))

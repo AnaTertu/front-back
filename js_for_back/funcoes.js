@@ -116,3 +116,4 @@
 
     const estudar = func => `estudo sobre ${func}`
     const subtrair = (num1, num2) => num1 - num2
+    

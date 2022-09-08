@@ -7,5 +7,3 @@ function ganhoPorHora(salario, horasTrabalhadasNoMes) {
 }
 
 ganhoPorHora(5000,192); 
-
-

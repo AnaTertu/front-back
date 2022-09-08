@@ -35,5 +35,3 @@ const objPersonagem = {
     classe: "mago",
     nivel: "20"
    }
-
- 
